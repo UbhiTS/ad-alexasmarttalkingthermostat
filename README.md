@@ -55,8 +55,8 @@ key | optional | type | description
 `hvac_limits\|cooling_min` | True | number | **Nobody** can set the cooling temperature below this threshold. **$$$** Hurray!
 `hvac_limits\|heating_max` | True | number | **Nobody** can set the heating temperature above this threshold. **$$$** Yaaaay!
 `hvac_limits\|daily_shutoff` | True | time | **Shuts off** your thermostat **"everyday" at this time**. Recommend 8 AM. This is in 24 hour format ("08:00:00")
-`hvac_limits\|enforce_fan_auto_mode` | True | bool | Does not allow your fan to **aimlessly** be on, this can be **used with the Air Cycle Feature** to get the best of both worlds, save $$$ and consistent air throughout your house
-`air_recirculation\|hour` | True | number | Cycles air every hour. Turns on **just the fan**, so you don't have stagnant air in the room. Very handy to control stagnant air and temperature difference in your home! 
+`hvac_limits\|enforce_fan_auto_mode` | True | bool | Does not allow your fan **aimlessly** be on, this can be **used with the Air Cycle Feature** to get the best of both worlds, save $$$ and consistent air throughout your house
+`air_recirculation\|hour` | True | number | Cycles air every hour. Turns on **just the fan**. Very handy to control stagnant air and temperature difference in your home! 
 `air_recirculation\|half_hour` | True | number | Cycles every 30 mins
 `air_recirculation\|quarter_hour` | True | number | Cycles every 15 mins
 `air_recirculation\|minute_offset` | True | number | If you want different thermostats in your house to cycle at different times, set the offset. E.g. MasterBedroom to 1, LivingRoom to 7, Kitchen to 15 etc 
