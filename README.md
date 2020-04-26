@@ -46,22 +46,22 @@ hvac_master_bedroom:
     - binary_sensor.master_bedroom_window
 ```
 
-key | optional | type | default | description
+key | optional | type | description
 -- | -- | -- | -- | --
-`module` | **False** | string |  | The module name of the app
-`class` | **False** | string |  | The name of the Class
-`thermostat` | **False** | climate |  | Your climate entity (Thermostat) to connect with the app
-`alexa` | **False** | media_player |  | Your Alexa to connect with the app
-`hvac_limits\|cooling_min` | True | number |  | **Nobody** can set the cooling temperature below this threshold. **$$$** Hurray!
-`hvac_limits\|heating_max` | True | number |  | **Nobody** can set the heating temperature above this threshold. **$$$** Yaaaay!
-`hvac_limits\|daily_shutoff` | True | time |  | **Shuts off** your thermostat **"everyday" at this time**. Recommend 8 AM. This is in 24 hour format ("08:00:00")
-`hvac_limits\|enforce_fan_auto_mode` | True | bool |  | Does not allow your fan to **aimlessly** be on, this can be **used with the Air Cycle Feature** to get the best of both worlds, save $$$ and consistent air throughout your house
-`air_recirculation\|hour` | True | number |  | Cycles air every hour. Turns on **just the fan**, so you don't have stagnant air in the room. Very handy to control stagnant air and temperature difference in your home! 
-`air_recirculation\|half_hour` | True | number |  | Cycles every 30 mins
-`air_recirculation\|quarter_hour` | True | number |  | Cycles every 15 mins
-`air_recirculation\|minute_offset` | True | number |  | If you want different thermostats in your house to cycle at different times, set the offset. E.g. MasterBedroom to 1, LivingRoom to 7, Kitchen to 15 etc 
-`air_recirculation\|duration` | True | number |  | how many minutes to cycle air.
-`doors_windows` | True | list\|binary_sensor |  | If you have door/window sensors in the same room, list them here so the thermostat will shut off if they are open for more than 60 seconds
+`module` | **False** | string | The module name of the app
+`class` | **False** | string | The name of the Class
+`thermostat` | **False** | climate | Your climate entity (Thermostat) to connect with the app
+`alexa` | **False** | media_player | Your Alexa to connect with the app
+`hvac_limits\|cooling_min` | True | number | **Nobody** can set the cooling temperature below this threshold. **$$$** Hurray!
+`hvac_limits\|heating_max` | True | number | **Nobody** can set the heating temperature above this threshold. **$$$** Yaaaay!
+`hvac_limits\|daily_shutoff` | True | time | **Shuts off** your thermostat **"everyday" at this time**. Recommend 8 AM. This is in 24 hour format ("08:00:00")
+`hvac_limits\|enforce_fan_auto_mode` | True | bool | Does not allow your fan to **aimlessly** be on, this can be **used with the Air Cycle Feature** to get the best of both worlds, save $$$ and consistent air throughout your house
+`air_recirculation\|hour` | True | number | Cycles air every hour. Turns on **just the fan**, so you don't have stagnant air in the room. Very handy to control stagnant air and temperature difference in your home! 
+`air_recirculation\|half_hour` | True | number | Cycles every 30 mins
+`air_recirculation\|quarter_hour` | True | number | Cycles every 15 mins
+`air_recirculation\|minute_offset` | True | number | If you want different thermostats in your house to cycle at different times, set the offset. E.g. MasterBedroom to 1, LivingRoom to 7, Kitchen to 15 etc 
+`air_recirculation\|duration` | True | number | how many minutes to cycle air.
+`doors_windows` | True | list\|binary_sensor | If you have door/window sensors in the same room, list them here so the thermostat will shut off if they are open for more than 60 seconds
 
 ## Thank you!
 This app wouldn't be possible without the amazing work done by the developers and community at **[Home Assistant](https://www.home-assistant.io/)**, and of Keaton Taylor and Alan Tse on their **Alexa Media Player integration** for Home Assistant. *https://github.com/custom-components/alexa_media_player*
