@@ -1,6 +1,14 @@
 # Alexa (& Sonos) Smart Talking Thermostat
 
-Alexa becomes an announcer for your thermostat. Set Temp Limits, Enforce Fan Modes, Daily Shut Off, makes your thermostat Smart ! Please :star: if you like the app :)
+Alexa becomes the voice for your thermostat. 
+And take control of your thermostat like never before. Extremely "Street Smart"!
+- **Enforce Temp Limits**: your guests just can't crank up the heat or cold, saving you $$$
+- **Daily Shut Off**: no more forgetting to turn off the thermostat and let it run whole day while you are away 
+- **Enforce Fan Mode Auto**: Does not allow your fan to aimlessly be on, this can be used with the Air Cycle Feature to get the best of both worlds, save $$$ and cycle air 
+- **Air Cycle Feature**: Cycles are at defined interval between your house and the rooms. If you have temp difference in rooms in your house, this will solve it!
+- **Open Door/Window Shut Off**: AC turns off if a door or window is left open for 60 seconds. Works specially well with your kids ;)
+
+Please :star: if you like the app :)
 
 Please ⭐ this repo if you like my work and also check out my other repos like
 - [Home Assistant 'STEROIDS' Configuration](https://github.com/UbhiTS/ha-config-ataraxis)
