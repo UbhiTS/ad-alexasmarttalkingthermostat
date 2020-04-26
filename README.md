@@ -8,6 +8,8 @@ Alexa becomes the voice for your thermostat. And, take control of your thermosta
 - **Air Cycle Feature**: Cycles are at defined interval between your house and the rooms. If you have temp difference in rooms in your house, this will solve it!
 - **Open Door/Window Shut Off**: AC turns off if a door or window is left open for 60 seconds. Works specially well with your kids ;)
 
+Ever since we've set this up in our home, we cannot imaging our home without it. Your home suddenly gets a voice, something like Jarvis ... Awesome ! 
+
 Please ⭐ this repo if you like my work and also check out my other repos like
 - [Home Assistant 'STEROIDS' Configuration](https://github.com/UbhiTS/ha-config-ataraxis)
 - [Alexa (& Sonos) Talking Clock](https://github.com/UbhiTS/ad-alexatalkingclock)
@@ -65,8 +67,6 @@ key | optional | type | description
 
 ## Thank you!
 This app wouldn't be possible without the amazing work done by the developers and community at **[Home Assistant](https://www.home-assistant.io/)**, and of Keaton Taylor and Alan Tse on their **Alexa Media Player integration** for Home Assistant. *https://github.com/custom-components/alexa_media_player*
-
-Ever since we've set this up in our home, we don't think we can do without it now. Your home suddenly gets a voice, something like Jarvis ... awesome ! 
 
 If you like my work and feel gracious, you can buy me a beer below ;)
 
