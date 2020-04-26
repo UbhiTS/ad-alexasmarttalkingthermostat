@@ -47,7 +47,7 @@ hvac_master_bedroom:
 ```
 
 key | optional | type | description
--- | -- | -- | -- | --
+-- | -- | -- | --
 `module` | **False** | string | The module name of the app
 `class` | **False** | string | The name of the Class
 `thermostat` | **False** | climate | Your climate entity (Thermostat) to connect with the app
