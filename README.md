@@ -48,8 +48,8 @@ hvac_master_bedroom:
 
 key | optional | type | default | description
 -- | -- | -- | -- | --
-`module` | **False** | string | alexa_smart_talking_thermostat | The module name of the app
-`class` | **False** | string | AlexaSmartTalkingThermostat | The name of the Class
+`module` | **False** | string |  | The module name of the app
+`class` | **False** | string |  | The name of the Class
 `thermostat` | **False** | climate |  | Your climate entity (Thermostat) to connect with the app
 `alexa` | **False** | media_player |  | Your Alexa to connect with the app
 `hvac_limits\|cooling_min` | True | number |  | **Nobody** can set the cooling temperature below this threshold. **$$$** Hurray!
