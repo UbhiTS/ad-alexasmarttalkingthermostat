@@ -23,7 +23,7 @@ Also, if you want to see a walkthrough of my Home Assistant configuration, I hav
 ## Installation
 **NEEDS THE [Alexa Media Player](https://github.com/custom-components/alexa_media_player) HACS Integration from Keaton Taylor and Alan Tse**
 
-Use [HACS](https://github.com/custom-components/hacs) or [download](https://github.com/UbhiTS/ad-alexatalkingclock) the `alexa_doorbell` directory from inside the `apps` directory to your local `apps` directory, then add the configuration to enable the `alexa_doorbell` module.
+Use [HACS](https://github.com/custom-components/hacs) or [download](https://github.com/UbhiTS/ad-alexasmarttalkingthermostat) the `alexa_smart_talking_thermostat.py` from inside the `apps` directory to your local `apps` directory, and add the configuration to enable the `alexa_doorbell` module.
 
 ## App Configuration (config/appdaemon/apps/apps.yaml)
 ```yaml
