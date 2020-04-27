@@ -1,6 +1,6 @@
 # Alexa (& Sonos) Smart Talking Thermostat
 
-Alexa becomes the voice for your thermostat. And, take control of your thermostat like never before. Extremely "Street Smart"!
+Alexa becomes the voice for your thermostat. Take control of your thermostat like never before. Extremely "Street Smart"!
 - **Your Thermostat Speaks What It's Doing**: **Alexa & HA together are Awesome!**
 - **Enforce Temp Limits**: your guests just can't crank up the heat or cold, saving you $$$
 - **Daily Shut Off**: no more forgetting to turn off the thermostat and let it run whole day while you are away 
