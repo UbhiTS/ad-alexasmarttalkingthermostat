@@ -1,4 +1,4 @@
-# Alexa (& Sonos) Smart Talking Thermostat
+# Alexa (& Sonos) Smart Talking Thermostat :chicken:
 
 Alexa becomes the voice for your thermostat. Take control of your thermostat like never before. Extremely "Street Smart"!
 - **Your Thermostat Speaks What It's Doing**: **Alexa & HA together are :gem:Awesome!:gem:**
