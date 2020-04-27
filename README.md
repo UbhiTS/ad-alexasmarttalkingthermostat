@@ -1,4 +1,4 @@
-# Alexa (& Friends) Smart Talking Thermostat : AppDaemon HASS :chicken:
+# Alexa (& Friends) Smart Talking Thermostat :chicken:
 
 Alexa (or other Smart Speakers) become the voice for your thermostat. Take control of your thermostat like never before. Extremely "Street Smart"!
 - **Your Thermostat Speaks What It's Doing**: **Alexa & HA together are :gem:Awesome!:gem:**
