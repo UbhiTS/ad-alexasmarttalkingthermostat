@@ -66,7 +66,7 @@ key | optional | type | description
 `air_recirculation\|duration` | True | number | how many minutes to cycle the air.
 `doors_windows` | True | list\|binary_sensor | If you have door/window sensors in the same room, connect them here so the thermostat will **shut off** if they are **open** for more than **60 seconds**
 
-## Thank you! :raised_hands:
+## Thank you! :raised_hands: <img src="https://poa5qzspd7.execute-api.us-east-1.amazonaws.com/live/hypercounterimage/dbdaff78525947ce9e52c1047b695968/counter.png">
 This app wouldn't be possible without the amazing work done by the developers and community at **[Home Assistant](https://www.home-assistant.io/)**, and of Keaton Taylor and Alan Tse on their **Alexa Media Player integration** for Home Assistant. *https://github.com/custom-components/alexa_media_player*
 
 If you like my work and feel gracious, you can buy me a beer below ;)
