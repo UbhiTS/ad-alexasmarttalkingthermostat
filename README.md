@@ -1,5 +1,7 @@
 # Alexa (& Friends) Smart Talking Thermostat :chicken: <img src="https://poa5qzspd7.execute-api.us-east-1.amazonaws.com/live/hypercounterimage/dbdaff78525947ce9e52c1047b695968/counter.png">
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+
 Alexa (or other Smart Speakers) become the voice for your thermostat. Take control of your thermostat like never before. Extremely "Street Smart"!
 - **Your Thermostat Speaks What It's Doing**: **Alexa & HA together are :gem:Awesome!:gem:**
 - **Enforce Temp Limits**: your guests just can't crank up the heat :hotsprings: or cold :snowflake:, saving you :dollar::dollar::dollar: 
