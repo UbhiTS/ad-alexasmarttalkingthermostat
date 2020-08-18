@@ -45,6 +45,7 @@ hvac_master_bedroom:
     heating_max: 72
     daily_shutoff: "08:00:00"
     enforce_fan_auto_mode: True
+  # OPTIONAL
   notifications:
     speaker: media_player.master_bedroom_alexa
     start_time: "08:00:00"
@@ -75,9 +76,9 @@ key | optional | type | description
 `hvac_limits\|heating_max` | True | number | **Nobody** can set the heating temperature above this threshold. **$$$ :moneybag:** Yaaaay!
 `hvac_limits\|daily_shutoff` | True | time | **Shuts off** your thermostat **"everyday" at this time**. Recommend 8 AM. This is in 24 hour format ("08:00:00")
 `hvac_limits\|enforce_fan_auto_mode` | True | bool | Does not allow your fan **aimlessly** be on, this can be **used with the Air Cycle Feature** to get the best of both worlds, save $$$ and consistent air throughout your house
-`notifications\speaker` | **False** | media_player | Your Alexa to connect with the app
-`notifications\start_time` | **False** | time | Notifications start time
-`notifications\end_time` | **False** | time | Notifications end time
+`notifications\speaker` | True | media_player | Your Alexa to connect with the app
+`notifications\start_time` | True | time | Notifications start time
+`notifications\end_time` | True | time | Notifications end time
 `doors_windows` | True | list\|binary_sensor | If you have door/window sensors in the same room, connect them here so the thermostat will **shut off** if they are **open** for more than **60 seconds**
 `air_recirculation\|hour` | True | number | Cycles air every hour. Turns on **just the fan**. Very handy to control stagnant air and temperature difference in your home! 
 `air_recirculation\|half_hour` | True | number | Cycles every 30 mins
