@@ -11,10 +11,10 @@ Alexa (or other Smart Speakers) become the voice for your thermostat. Take contr
 - **Enforce Temp Limits**: your guests (or kids) can't crank up the heat :hotsprings: or cold :snowflake:, saving you :dollar::dollar::dollar:
 - **Daily Shut Off**: no more forgetting to turn off the thermostat and let it run whole day while you are away 
 - **Enforce Fan Mode Auto**: Does not allow your fan to aimlessly be on, this can be used with the Air Cycle Feature to get the best of both worlds, save :dollar::dollar::dollar: and cycle air
-- **Air Cycle Feature**: (optional) Cycles air at the defined interval between the rooms in your house. If you have temp difference in rooms in your house, or a room has stagnant air, and just smells funny :trollface:, this will solve it!
+- **Air Cycle Feature**: Cycles air at the defined interval between the rooms in your house. If you have temp difference in rooms in your house, or a room has stagnant air, and just smells funny :trollface:, this will solve it!
 kids :girl::girl: ;)
-- **Open Door/Window Shut Off**: (optional) AC turns off if a door :door: or window :city_sunrise: is left open for 60 seconds. Works specially well with your 
-- **Power Backup Guard**: (optional) AC turns off if the mains utility grid goes offline and your home is running on battery backup (Tesla Powerwall)
+- **Open Door/Window Shut Off**: AC turns off if a door :door: or window :city_sunrise: is left open for 60 seconds. Works specially well with your 
+- **Power Backup Guard**: AC turns off if the mains utility grid goes offline and your home is running on battery backup (Tesla Powerwall)
 
 Ever since we've set this up in our home, we cannot imaging our home without it. Your home suddenly gets a voice, something like Jarvis ... Awesome! 
 
